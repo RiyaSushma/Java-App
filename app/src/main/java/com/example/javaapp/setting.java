@@ -102,7 +102,6 @@ public class setting extends AppCompatActivity {
 
                 String name = setName.getText().toString();
                 String status = setStatus.getText().toString();
-                Toast.makeText(setting.this, email + name + password, Toast.LENGTH_SHORT).show();
 
                 if(setImageUri != null) {
                     storageReference.putFile(setImageUri).addOnCompleteListener(new OnCompleteListener<UploadTask.TaskSnapshot>() {

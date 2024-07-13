@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.JavaApp" parent="Base.Theme.JavaApp">
+        <!-- Transparent system bars for edge-to-edge. -->
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
+    </style>
+
+    <style name="dialog">
+        <item name="android:windowBackground">@drawable/empty_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+</resources>

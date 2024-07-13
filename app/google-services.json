@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "576678671234",
+    "project_id": "java-app-bcfa3",
+    "storage_bucket": "java-app-bcfa3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576678671234:android:b8128231c935779018959b",
+        "android_client_info": {
+          "package_name": "com.example.javaapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4MZSf8FXc1gHLwvVENR9wkArOxNaZuTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
